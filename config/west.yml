@@ -2,16 +2,10 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: micronc
-      url-base: https://github.com/micronc
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: v0.3
       import: app/west.yml
-    - name: zmk-chocofi
-      remote: micronc
-      revision: master
-      path: modules/chocofi
   self:
     path: config
