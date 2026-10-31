@@ -1,5 +1,9 @@
-# A nice!view
+# MX_ZMK
 
-The nice!view is a low-power, high refresh rate display meant to replace I2C OLEDs traditionally used.
+ZMK keymap for a 36-key Corne-layout (Chocofi) split keyboard on nice!nano v2 controllers.
 
-This shield requires that an `&nice_view_spi` labeled SPI bus is provided with _at least_ MOSI, SCK, and CS pins defined.
+- `config/corne.keymap` – the keymap
+- `config/corne.conf` – build options
+- `build.yaml` – builds `corne_left` and `corne_right` for `nice_nano_v2`
+
+Push to GitHub and download the firmware from the Actions run artifacts.
