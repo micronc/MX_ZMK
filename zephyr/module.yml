@@ -1,4 +1,0 @@
-name: "zmk-shield-nice!view-luffy-wanted"
-build:
-  settings:
-    board_root: .
