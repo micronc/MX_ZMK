@@ -1,4 +1,4 @@
-# MX_ZMK
+# zmk-chocofi
 
 ZMK keymap for a 36-key Corne-layout (Chocofi) split keyboard on nice!nano v2 controllers.
 
